@@ -1,3 +1,4 @@
+from stats import get_num_words
 path_to_frankenstein = "books/frankenstein.txt"
 
 def sort_on(dict):
