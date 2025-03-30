@@ -1,3 +1,6 @@
+def sort_on(dict):
+    return dict['count']
+    
 def count_characters(text):
     characters = {}
     lowered_string = text.lower()
