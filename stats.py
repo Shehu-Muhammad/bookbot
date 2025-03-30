@@ -20,7 +20,7 @@ def count_characters(text):
     sorted_char_list = sorted(char_list, key=sort_on, reverse=True)
 
     for item in sorted_char_list:
-        result.append(f"The '{item['letter']}' character was found {item['count']} times")
+        result.append(f"{item['letter']}: {item['count']}")
     return '\n'.join(result)
 
 def count_words(text):
