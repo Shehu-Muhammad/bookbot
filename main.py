@@ -1,9 +1,6 @@
 from stats import count_words, count_characters
 path_to_frankenstein = "books/frankenstein.txt"
 
-def sort_on(dict):
-    return dict['count']
-
 def main():
     print(f"--- Begin report of {path_to_frankenstein} ---")
     with open(path_to_frankenstein) as f:
